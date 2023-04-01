@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3f3f3f;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .time-left {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .timer button {
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .timer button:hover {
+    background-color: #fff;
+    color: #3f3f3f;
+    border: 2px solid #3f3f3f;
+  }
+  
+  .controls button {
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #fff;
+    color: #3f3f3f;
+    border: 2px solid #3f3f3f;
+  }
+  
+  footer {
+    background-color: #fff;
+  }
